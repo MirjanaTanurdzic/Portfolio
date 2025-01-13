@@ -480,3 +480,173 @@ body{
 .pointer-img.visible{
     display: block;
 }
+@media screen and (min-width: 420px) and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    .left {
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+    .right {
+        width: 100%;
+        margin-left: 0;
+    }
+    .pic{
+        width: 40%;
+        margin-top: 20px;
+    }
+    .pic img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .pic p{
+        font-size: 15px;
+    }
+    .left nav ul {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .left nav ul li {
+        margin-bottom: 0;
+    }
+    .left nav ul li a img {
+        width: 60px;
+        height: 60px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .left nav ul li a img:hover{
+        width: 65px;
+        height: 65px;
+        border-radius: 5px;
+    }
+    #home{
+        margin-bottom: 10px;
+    }
+    #home .slider {
+        margin-bottom: 35px;
+    }
+    #home h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    #home h2{
+        font-size: 20px;
+    }
+    #home p{
+        font-size: 15px;
+    }
+    #about{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    #about h1{
+        font-size: 20px;
+    }
+    .school{
+        font-size: 10px;
+    }
+    .school h5{
+        font-size: 12px;
+    }
+    .s-name{
+        font-size: 12px;
+    }
+    .l-name{
+        font-size: 12px;
+    }
+    .percent {
+        height: 8px;
+    }
+    #projects{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    #projects h1{
+        font-size: 20px;
+    }
+    .p1, .p2, .p3, .p4, .p5, .p6{
+        width: 80%;
+        font-size: 10px;
+    }
+    .p1 h2, .p2 h2, .p3 h2, .p4 h2, .p5 h2, .p6 h2{
+        font-size: 12px;
+    }
+    .p1 button, .p2 button, .p3 button, .p4 button, .p5 button, .p6 button{
+        width: 100px;
+    }
+    .buttons button:nth-child(1){
+        margin-right: 0;
+    }
+    .p1 button a, .p2 button a, .p3 button a, .p4 button a, .p5 button a, .p6 button a{
+        font-size: 10px;
+    }
+    #contact{
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    #contact h1{
+        font-size: 20px;
+    }
+    .socials h5{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .socials form label{
+        font-size: 12px;
+    }
+    #name, #email, #message{
+        font-size: 11px;
+    }
+    .socials button{
+        margin-left: 35px;
+    }
+    #form-message{
+        top: 500px;
+        left: 118px;
+        width: 44.6%;
+        height: 32%;
+    }
+    .icons img{
+        width: 45px;
+        height: 45px;
+    }
+    .icons img:hover{
+        border-radius: 5px;
+    }
+    #emailDiv{
+        right: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+    #emailDiv button{
+        width: 15px;
+        height: 15px;
+        font-size: 11px;
+    }
+    #emailDiv .close-button:hover{
+        font-size: 12px;
+    }
+    #emailDiv .copy-button{
+        margin-left: 2px;
+    }
+    .copy-button img{
+        width: 90%;
+        height: 90%;
+    }
+    .pointer{
+        width: 5%;
+    }
+}
