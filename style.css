@@ -507,6 +507,7 @@ body{
         margin-right: 20px;
     }
     .pic p{
+        font-family: Impact, sans-serif;
         font-size: 15px;
     }
     .left nav ul {
@@ -611,7 +612,7 @@ body{
         font-size: 11px;
     }
     .socials button{
-        margin-left: 35px;
+        margin-left: 40px;
     }
     #form-message{
         top: 500px;
@@ -627,7 +628,7 @@ body{
         border-radius: 5px;
     }
     #emailDiv{
-        right: 15px;
+        right: 10px;
         height: 15px;
         font-size: 10px;
     }
