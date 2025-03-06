@@ -208,10 +208,17 @@ body{
     margin-bottom: 20px;
 }
 .s-name {
+    display: flex;
+    flex-direction: row;
     font-size: 15px;
     color: #000000;
     margin-bottom: 1px;
     font-weight: bold;
+}
+.s-point{
+    color: #a7c7ef96;
+    font-size: 15px;
+    margin-right: 3px;
 }
 .l-container {
     margin-bottom: 20px;
@@ -507,7 +514,6 @@ body{
         margin-right: 20px;
     }
     .pic p{
-        font-family: Impact, sans-serif;
         font-size: 15px;
     }
     .left nav ul {
@@ -562,6 +568,10 @@ body{
     }
     .s-name{
         font-size: 12px;
+    }
+    .s-point{
+        font-size: 12px;
+        margin-right: 2px;
     }
     .l-name{
         font-size: 12px;
